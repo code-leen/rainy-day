@@ -21,11 +21,11 @@ initial-scale=1, shrink-to-fit=no">
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/beats.html">Chill Beats</a>
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/pages/beats.html">Chill Beats<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/pages/self-check.html">Self-Check</a>
@@ -37,11 +37,29 @@ initial-scale=1, shrink-to-fit=no">
     </div>
   </nav>
 
-  <div class="container mt-5 d-flex justify-content-center">
-    <div class="row">
+  <div class="container mt-5 d-flex flex-column align-items-center">
+    <div class="row d-flex justify-content-center">
       <div class="col">
-        <h1 class="pb-3">Having a Rainy Day?</h1>
-        <p>Take a breather and take care of yourself.</p>
+        <h1 class="pb-3">Chill Beats</h1>
+        <p>Relax to these tracks.</p>
+      </div>
+    </div>
+    <div class="spinner-border" role="status">
+      <div class="row">
+        <div class="col">
+          <iframe class="playlist-container" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media">
+          </iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <iframe class="playlist-container" src="https://open.spotify.com/embed/playlist/58VaAFBwlAG6Hmu2J8PMuZ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <iframe class="playlist-container" src="https://open.spotify.com/embed/playlist/2mGcdPPbjrOpJIggj6DLD0" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
       </div>
     </div>
   </div>
