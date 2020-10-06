@@ -1,7 +1,7 @@
 .navbar {
   -webkit-box-shadow: 0px 6px 20px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 6px 20px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 6px 20px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 20px -10px rgba(0, 0, 0, 0.75);\
 }
 
 p {
@@ -15,6 +15,7 @@ a {
 
 body {
   margin-bottom: 50px;
+  font-size: 20px;
   /* Margin bottom by footer height */
 }
 
@@ -39,4 +40,13 @@ body {
   box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.75);
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.resources-links {
+  margin: 20px;
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 25px;
 }
